@@ -290,6 +290,19 @@ figcaption {
   line-height: 0.75;
 }
 
+.abstract-link {
+  color: var(--teal-dark);
+  font-weight: 600;
+  text-decoration-color: rgba(13, 142, 130, 0.4);
+  text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
+}
+
+.abstract-link:hover {
+  color: var(--navy);
+  text-decoration-color: var(--navy);
+}
+
 footer {
   display: flex;
   align-items: center;
